@@ -1,0 +1,67 @@
+body{
+    background-color: silver;
+}
+.body{
+    min-height: 100vh;
+
+}
+.content{
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    max-width: max-content;
+    margin: 20px auto;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 70px 10px;
+   
+}
+.carselected{
+    display: block;
+    margin: 10px;
+    max-height:max-content; 
+    border-radius: 25px;
+}
+.carimage img{
+    height: 180px;
+    border-radius: 20px;
+}
+.cardtext{
+    text-align: start;
+    padding: 10px;
+}
+.clientinfo{
+  
+    max-height: max-content;
+    border-radius: 10px 10px 40px 10px;
+    padding: 10px;
+    background-color: rgba(10,22,1,0.1);
+}
+.description{
+    border-top: 1px solid black;
+    width: 100%;
+    text-align: start;
+}
+
+/* this will be shown if user select it  */
+#other{
+    display: none;
+}
+.city{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.country{
+    text-align: start;
+}
+.selectdate{
+    text-align: start;
+}
+label{
+    font-weight:bold;
+}
+

@@ -1,0 +1,35 @@
+body{
+    background-color: gainsboro;
+    
+}
+h1{
+text-align: center;
+}
+
+
+#content{
+    width: max-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.body #content label{
+    display: block;
+}
+
+.body #content input{
+    width: 300px;
+    padding: 7px;
+    display: block;
+    background-color: bisque;
+}
+.body #content input[type="submit"]{
+    width: max-content;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: salmon;
+    color: white;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success{
+    width: max-content;
+    min-height: 200px;
+    background-color: green;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    a{
+        color:hotpink;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}

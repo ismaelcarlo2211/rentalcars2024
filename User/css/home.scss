@@ -1,0 +1,205 @@
+
+body{
+    background-image: url(../images/wall6.jpg);
+    min-height: 100vh;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+ 
+
+    animation-name: animate; 
+    animation-direction:alternate-reverse;
+    animation-duration: 14s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.body{
+
+    display: flex;
+    padding: 50px;
+    overflow: hidden;
+    // align-items:center;
+    
+    justify-content: space-between;
+    // align-items: center;
+ 
+    #body-content{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        border-radius: 60px 10px;
+        max-width: 50%; 
+        
+        
+        h1{
+            padding: 10px 0;
+            line-height: 1.2;
+        }
+        h2{
+            // padding: 10px 0;
+            padding-top: 10px;
+            color: coral;
+        }
+        p{
+            margin: 10px 0;
+        }
+        #btn{
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: coral;
+            border-radius: 10px;
+            letter-spacing: 1px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 5s;
+            &:hover{
+                background:transparent;
+                color: turquoise;
+            }
+
+            animation-name: explore; 
+    animation-direction:alternate-reverse;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+        }
+    }
+    #body-image{
+        margin: 20px;
+    }
+#card{
+    background-color: rgba(235, 238, 241, 0.543);
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px;
+    margin-top: 30px;
+    min-width: 200px;
+}
+.cardtext{
+    
+}
+.rentlink{
+text-align: center;
+padding: 10px;
+border: 3px solid black;
+border-radius: 10px;
+ background-color: rgba(229, 116, 41, 0.341);;
+width: 50%;
+margin: 0 auto;
+transition: 5s;
+
+animation-name: explore; 
+    animation-direction:alternate-reverse;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+
+}
+.rentlink a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.rentlink:hover{
+    background-color:  coral;
+    a{
+        color: white;
+        
+    }
+}
+    .carimage img{
+        height: 130px;
+    }
+    // #body-image{
+        
+    //     transform: rotate(45deg);
+        
+    //     #image1{
+    //         width: 300px;
+    //         height: 300px;
+    //         border: 20px solid rgba(234, 115, 42,0.22);
+
+    //         img{
+    //             width: 300px;
+    //             height: 300px;
+    //             transform: rotate(-45deg);
+    //             mix-blend-mode: multiply;
+    //         }
+    //     }
+    // }
+   
+
+    
+
+
+
+
+   
+
+  
+}
+
+
+@keyframes animate{
+    
+    0%{
+      background-image: url(../images/wall4.jpg);
+    }
+    100%{
+      background-image: url(../images/wall7.webp);
+    }
+
+    // i used three images because if you use many images you maay see some appear and dissapear after changes of image
+    // 50%{
+    //   background-image: url(../images/wall3.jpg);
+    // }
+    // 60%{
+    //   background-image: url(../images//wall8.png);
+    // }
+    // 75%{
+    //   background-image: url(../images/wall7.webp);
+    // }
+    // 100%{
+    //     background-image: url(../images/wall1.jpg);
+    //   }
+  }
+
+  @keyframes explore{
+    0%{
+        transform: scale(1.2);
+        background-color: chocolate;
+    }
+    100%{
+        transform: scale(unset);
+        
+        
+    }
+  }
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    .body{
+        display: block;
+        overflow: hidden;
+        #body-content{
+            max-width: unset;
+        }
+    }
+    
+}

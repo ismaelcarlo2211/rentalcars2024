@@ -1,0 +1,34 @@
+#content{
+    text-align: center;
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    min-height: 70vh;
+    border-radius: 10px;
+    background-color:  rgba(255, 255, 255, 0.564);
+}
+
+
+#content input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0px;
+    background-color:  rgba(250, 251, 252, 0.32);;
+}
+textarea{
+    width: 100%;
+    margin-top: 10px;
+    min-height: 200px;
+    background-color:  rgba(250, 251, 252, 0.32);;
+}
+#content input[type=submit]{
+    width: max-content;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+
+}

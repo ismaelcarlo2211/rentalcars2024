@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+body{
+    background-image: url(../images/wall7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#header{
+    // background-color: rgb(39, 61, 61,0.99);
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    justify-items: center;
+    // padding:10px;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px 16px;
+    // border-left: 1px solid wheat;
+}
+ul li ul.dropdown li{
+    display: block;
+    text-align: center;
+    font-weight: 900;
+}
+
+ul li ul.dropdown{
+    position:absolute ;
+    display: none;
+    width: 100%;
+}
+ul li ul.dropdown li a{
+    padding: 5px;
+    color:black;
+    background-color: white;
+    font-weight: 900;
+}
+
+
+ul li a:hover:not(.active){
+    color:rgb(223, 71, 16);
+    border-bottom: 1px solid coral;
+    transition: unset;
+}
+ul li ul.dropdown li a:hover{
+    color:coral;
+    border-bottom: unset;
+    transition: unset;
+}
+
+ul li ul.dropdownopen{
+    display: block;
+}
+
+.active{
+ color:white;
+ background-color: coral;
+// color: coral;
+                   
+    }
+.logo{
+    display: flex;
+    align-items: center;
+    color: coral;
+    transition: 5s;
+    
+
+    
+}
+.logo h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+ 
+.toggle{
+position: absolute;  
+color: white; 
+border: 1px solid white;
+top: 0.2rem; 
+right: 0.1rem;
+display: none;
+}
+.body{
+    min-height: 100vh;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .logo{
+        background-color: rgba(22,22,22,0.3);
+    }
+   #header{
+justify-content: unset;
+display: block;
+   }
+   
+    ul li{
+        display: block;
+    }
+    nav{
+        text-align: center;
+    }
+    .toggle{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    ul li ul.dropdown{
+        position: relative;
+        
+    }
+    .display{
+        display: block; /* display toggle created with javascript*/
+    }
+}
+
+
+
+
+
+
+
+
+
+// *{
+//     margin: 0;
+//     padding: o;
+//     transition: 2s;
+//     font-family: sans-serif;
+// }
+// body{
+    
+//     // background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(../images/wall1.jpg);
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+// }
+
+
+//     #header{
+//         justify-content: space-between;
+//         display: flex;
+//         text-align: center;
+//         justify-items: center;
+//         // border-bottom: 3px solid rgb(188, 21, 130);
+//         background-color:black;
+//         text-transform: uppercase;
+//         padding:10px;
+//         text-transform: capitalize;
+//     }
+   
+//         .logo a{
+            
+//             font-size: 25px;
+//             font-weight: bold;
+//             color: turquoise;
+//             padding: 10px unset;
+//             text-decoration: none;
+            
+              
+            
+//         }
+
+//         nav{
+//             text-align: center;
+//             justify-content: center;
+//             align-items: center;
+
+//         }
+    
+           
+//         nav a{
+            
+//         text-decoration: none;
+//         font-size: 20px;
+//         color: white;
+//         padding:10px 20px;
+//         font-weight: bold;
+//         display: inline-block;
+//         &:hover:not(.active){
+//             border-bottom: 2px solid green;
+//         }
+        
+//     }
+//             .active{
+//                 border-bottom: 2px solid green;
+//                 color: coral;
+               
+//             }
+        
+
+            
+            
+            
+
+// .toggle{
+//     position: absolute;
+//     top: 0rem;
+//     right: 0;
+//     padding: 10px;
+//     display: none;
+//     color: white;
+//     font-size: 20px;
+// }
+   
+// @media screen and (max-width:500px) {
+//     body{
+//         font-size: medium;
+//     }
+//     nav{
+//         display: none;
+//     }
+    
+//     .toggle{
+//         display: block;
+//     }
+//     .display{
+//         display: block;
+//     }
+//     nav a{
+//         display: block;
+//     }
+//     #header{
+//         text-align: start;
+//         justify-content: start;
+//         display: block;
+        
+//     }
+    
+// }

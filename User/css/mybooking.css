@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+ background-color:unset;
+ background-color: white;
+}
+.body{
+    overflow: scroll;
+}
+
+#booking{    
+    max-width:max-content;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgba(204, 209, 211, 0.922);
+}
+.Appending{
+    background-color: rgb(152, 54, 54);
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+.Approved{
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.Denied{
+    background-color: red;
+    color: azure;
+    padding: 2px;
+    border-radius: 5px;
+}
+/* .status i{
+    background-color: rgb(152, 54, 54);
+    color: white;
+    
+} */
+.payemtmethod{
+    border-left: 1px solid black;
+    max-width: 150px;
+}
+.h2{
+    text-decoration:underline;
+    color:blueviolet;
+    margin-bottom: 10px;
+}
+.payment{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+   
+}
+.payment:hover{
+    cursor: pointer;
+    
+}
+.NB{
+    color:rgb(152, 54, 54);
+    font-weight: bold;
+}
+.payemtmethod img{
+    height: 70px;
+}
+.NB2{
+    color: red;
+}

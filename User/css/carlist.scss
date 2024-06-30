@@ -1,0 +1,51 @@
+body{
+    background-color: wheat;
+ 
+}
+.body{
+    margin: 20px 10px;
+    text-align: center;
+}
+.carimage img{
+    width: 100%;
+    border-radius: 10px;
+    height: 130px;
+   }
+.listcards{
+    display: grid;
+    /* grid-template-columns:repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 10px;
+    margin: 40px 10px;
+}
+#card{
+    background-color: rgba(235, 238, 241, 0.573);
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px;
+}
+.cardtext{
+    // background-color: white;
+}
+.rentlink{
+text-align: center;
+padding: 10px;
+border: 3px solid black;
+border-radius: 10px;
+background-color: gainsboro;
+width: 50%;
+margin: 0 auto;
+}
+.rentlink a{
+    text-decoration: none;
+    color: coral;
+    font-weight: 900;
+}
+.rentlink:hover{
+    background-color: coral;
+    a{
+        color: white;
+    }
+}

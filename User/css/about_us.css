@@ -1,0 +1,29 @@
+.body{
+    text-align: center;
+    padding: 10px;
+}
+#content{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid black;
+border-radius: 10px;
+max-width: 400px;
+width: 100%;
+margin: 0 auto;
+background-color: rgba(201, 204, 208, 0.4);
+}
+#content .image{
+    border-right: 1px solid black;
+}
+#content .image div{
+    background-color:  rgba(33, 132, 149, 0.4);
+    padding: 10px;
+}
+#content img{
+    height: 200px;
+}
+
+.text .link{
+    font-size: 20px;
+}
