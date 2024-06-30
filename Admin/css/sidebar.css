@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+body{
+    
+}
+
+
+.container{
+    
+}
+.header{
+    background-color: rgb(69, 68, 68);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid wheat;
+    color: wheat;
+
+
+
+}
+    .sidebar{
+        background-color: rgb(69, 68, 68);
+        width: 20%;
+        align-items: center;
+        
+        color: white;
+        height: 100%;
+
+        /* position fiexed will help to move home content to the top */
+        position: fixed;
+ 
+    }
+        .logo{
+            padding: 10px;
+            padding-bottom: 20px;
+            display: inline-block;
+border-bottom: 2px solid white;
+width: 100%;
+
+        }
+        .logo img{
+            height: 80px;
+            border-radius: 30px;
+            border: 1px solid wheat;
+        }
+            
+        
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+          }
+
+        .acitive{                
+            background-color:mediumvioletred;
+            color: mediumvioletred;
+               }
+.list a:hover:not(.acitive){
+         background-color: rgba(36, 35, 35,1);
+         transition: -0.5s;
+                    }
+
+        /* Home content */
+        .home{
+            margin-left: 20%;
+            
+        }
+        
+        .home .content{
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+       
+
+    
+    .list a i{
+        margin: 0 5px;
+    }
+
+        @media screen and (max-width:800px) {
+           
+            .sidebar {
+                width: 100%;
+                height: auto;
+                display: flex;
+                position: relative;
+              }
+              .logo{
+                border-bottom: unset;
+                border-right: 1px solid white;
+              }
+             
+              .sidebar a {
+                float: left;
+                border-radius: 10px;
+                border: 1px solid white;
+            }
+            .home{
+                margin-left: unset;
+                text-align: center;
+                
+            }
+            .header{
+                background-color:lightslategrey;
+                padding: 10px;
+            }
+    
+        }

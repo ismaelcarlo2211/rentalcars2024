@@ -1,0 +1,114 @@
+*{
+    transition: 1s;
+}
+.listcards{
+    display: grid;
+    /* grid-template-columns:repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.card{
+    
+    border-radius: 10px;
+    background-color: darkgrey;
+    padding: 10px;
+    position: relative;
+}
+.card:hover{
+    background-color:cornflowerblue;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.count{
+    padding: 10px;
+    font-weight: 900;
+    font-size: 30px;
+    color:greenyellow;
+
+}
+.card a{
+    font-size: 20px;
+    color: white;
+}
+
+.card i{
+    position: absolute;
+    top: -0.5rem;
+    font-size: 30px;
+    left: 10px;
+    color: crimson;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+#cars{
+    background-color:violet;
+}
+#orders{
+    background-color:rgb(77, 68, 134);
+}
+#appending{
+background-color:cadetblue;
+}
+#approved{
+background-color: hotpink;
+}
+#messages{
+background-color: green;
+}
+#admin{
+background-color: darkkhaki;
+}
+#users{
+background-color: olive;
+}
+#drivers{
+background-color: plum;
+}
+#denied{
+   background-color:brown; 
+}
+
+
+/* table */
+table{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color: hotpink;
+}
+
+td{
+    text-align: start;
+}
+#name{
+    width: 40%;
+}
+
+
+@media screen and (max-width:600px) {
+    .listcards{
+        /* grid-template-columns:repeat(3,1fr); */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+}
+@media screen and (max-width:400px) {
+    /* .listcards{
+        grid-template-columns:repeat(2,1fr);
+        
+    } */
+}

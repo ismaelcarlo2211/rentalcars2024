@@ -1,0 +1,26 @@
+
+.table{
+    overflow: scroll;
+}
+table{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    min-width: 400px;
+    
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 7px;
+}
+th{
+    background-color: hotpink;
+    padding: 10px;
+}
+
+td{
+    text-align: start;
+}

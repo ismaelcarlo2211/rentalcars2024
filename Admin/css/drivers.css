@@ -1,0 +1,46 @@
+.content {
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+table{
+    border: 1px solid black;
+
+}
+th{
+    background-color: hotpink;
+    padding: 7px;
+}
+th,td{
+    border: 1px solid black;
+}
+.table{
+    max-width: max-content;
+    margin: 0 auto;
+    overflow: scroll;
+}
+.link{
+    
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: max-content;
+}
+.link button{
+    padding: 5px;
+    margin: 5px;
+}
+.link a{
+    color: white;
+}
+ .link .edit{
+    background-color: green;
+    
+ }
+ .link .delete{
+    background-color: crimson;
+ }
+

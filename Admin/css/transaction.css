@@ -1,0 +1,20 @@
+  /* ------------Appending, Approved,Denied one of them is fetched from the table booking base on the operation --------------- */
+  .Appending{
+
+    color: hotpink;
+    font-weight: bold;
+   
+
+}
+.Approved{
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.Denied{
+    background-color: crimson;
+    color: azure;
+    padding: 2px;
+    border-radius: 5px;
+}

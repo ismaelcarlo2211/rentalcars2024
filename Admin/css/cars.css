@@ -1,0 +1,59 @@
+/* table */
+.table{
+    overflow: scroll;
+}
+
+table{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    
+    
+}
+
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color: hotpink;
+    padding: 10px;
+}
+
+td{
+    text-align: start;
+}
+#id{
+    width: 30px;
+}
+.link{
+    
+    display: flex;
+    
+}
+.link a{
+    display: inline-block;
+    
+}
+.link .edit a{
+    color: white;
+    background-color: green;
+    padding: 10px;
+}
+.link .delete a{
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+}
+
+.newcar{
+    
+   text-align: start;
+   font-size: 20px;
+   color: crimson;
+}
+.newcar a{
+    color: crimson;
+    font-weight: bold;
+}

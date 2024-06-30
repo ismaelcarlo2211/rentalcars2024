@@ -1,0 +1,77 @@
+.content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    table{
+        border: 1px solid black;
+    
+    }
+    th{
+        background-color: hotpink;
+       
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 7px;
+    }
+    .table{
+        max-width: max-content;
+        margin: 0 auto;
+        overflow: scroll;
+    }
+    
+   
+    a.approve{
+        background-color: green;
+        
+    }
+    a.deny{
+        background-color: crimson ;
+    }
+  a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    
+  }
+
+  a.approve:hover,a.deny:hover{
+    color: yellow;
+    font-size: 18px;
+
+    
+  }
+
+
+  /* ------------Appending, Approved,Denied one of them is fetched from the table booking base on the operation --------------- */
+  .Appending{
+
+    color: hotpink;
+    font-weight: bold;
+   
+
+}
+.Approved{
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.Denied{
+    background-color: crimson;
+    color: azure;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.delete a{
+    color: red;
+    
+}
+.delete{
+    padding: 10px;
+}
